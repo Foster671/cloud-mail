@@ -15,6 +15,9 @@ database_id = "25265fbb-00e0-4f37-999b-3bb8ecd19af3"
 binding = "kv"
 id = "3e46db9396bb4ec4846e8e8e030b2e25"
 
+[[send_email]]
+name = "forward"		#站内转发到已验证的其他邮箱，不限制单个地址
+
 [ai]
 binding = "ai"
 
